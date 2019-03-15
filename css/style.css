@@ -132,6 +132,7 @@ p {
   width: 250px;
   margin: 10px 10px;
 }
+
 /* Portfolio Label Text Block */
 .plabel {
   position: absolute;
@@ -145,13 +146,12 @@ p {
   width: auto;
   font-family: "Roboto", sans-serif;
 }
-
+.img-fluid {
+  max-width: 250px;
+  height: auto;
+}
 .psublabel {
-  font-family: "Roboto", sans-serif;
   font-size: 75%;
-  padding: 0px;
-  text-align: center;
-  align-content: center;
 }
 
 footer {
