@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="images/fav4.png" />
+    <title>DM Portfolio</title>
+  </head>
+  <!--------------------------------------------------------------------->
+
+  <body>
+    <!-- HEADER -------------------------------------------------------------------->
+
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+      <div class="container-fluid topborder">
+        <span class="navbar-brand" style="color:#FFFFFF">
+          <h3>David Ma</h3>
+        </span>
+      </div>
+    </nav>
+
+    <!-- ABOUT ME-------------------------------------------------------------------->
+
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              About Me
+            </button>
+          </h5>
+        </div>
+
+        <div
+          id="collapseOne"
+          class="collapse show"
+          aria-labelledby="headingOne"
+          data-parent="#accordionExample"
+        >
+          <div class="card-body">
+            <img
+              class="headshot img-fluid"
+              id="left"
+              src="https://media.licdn.com/dms/image/C4E03AQF5p8oKzOqG1Q/profile-displayphoto-shrink_200_200/0?e=1553126400&v=beta&t=VfrdFD-67mrS4WKMhV1GjP69bQwFwxKJrndol8ZQrt4"
+              alt="David Ma Headshot"
+            />
+
+            Hi, I'm David Ma, an aspiring coder. Welcome to my Portfolio! <br />
+            <br />
+            I was born in Beijing, China. My last name Ma (simplified Chinese:
+            <strong>马</strong>; traditional Chinese: <strong>馬</strong>;
+            pinyin: Mǎ) means horse in English, which is why the favicon of this
+            portfolio site is a horse. When I was 6 I moved to Cleveland, Ohio,
+            which is where I grew up. I am 2 years younger than Lebron James who
+            is also from the Cleveland area, and was a big fan of Lebron until
+            he left for the Miami Heat during the "Decision", but begrudgingly
+            welcomed him back to Cleveland and was ultimately happy that the
+            Cavs won their first championship. <br />
+            <br />
+            I moved to NYC when I was 18 for college, where I studied Operations
+            Research and Economics at Columbia. Since graduating I've worked in
+            finance at the New York Stock Exchange, in a startup Openfolio, and
+            currently in insurance at Marsh. I have a confession - I flunked my
+            very first Intro to Computer Science class at Columbia, and my
+            effort with this Bootcamp is to rectify that. I hope to use these
+            new skills to create a website for my upcoming Children's Book, The
+            Emperor's Seed. Most Importantly, I am hoping this class will serve
+            as a foundation for learning coding in general including new
+            languages, thought processes, and skills that can be useful for a
+            lifetime.
+            <br />
+            <br />
+            Thank you for visiting. This is the first working portfolio page
+            that I wrote from scratch. I hope you enjoyed your visit!
+          </div>
+        </div>
+      </div>
+
+      <!-- PORTFOLIO------------------------------------------------------------------->
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Portfolio
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseTwo"
+          class="collapse"
+          aria-labelledby="headingTwo"
+          data-parent="#accordionExample"
+        >
+          <div class="card-body">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <a href="https://bingbingma.github.io/Word-Guess-Game/">
+                      <img
+                        class="img-fluid"
+                        src="images/tswiftS.jpg"
+                        alt="Taylor Swift"
+                      />
+                      <h6 class="container-fluid plabel" id="left">
+                        Word Guess Game
+                      </h6>
+                    </a>
+                    <a
+                      href="https://github.com/bingbingma/Word-Guess-Game"
+                      class="container-fluid psublabel"
+                    >
+                      Taylor Swift Song Guess | GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <a href="https://mcook1992.github.io/Project_1/">
+                      <img
+                        class="img-fluid"
+                        src="images/campingJ.jpg"
+                        alt="travel camping"
+                      />
+                      <h6 class="container-fluid plabel">
+                        Seasonal Escape
+                      </h6>
+                    </a>
+                    <a
+                      href="https://github.com/mcook1992/Project_1"
+                      class="container-fluid psublabel"
+                    >
+                      Climate Driven Flight Search | GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <a href="https://bingbingma.github.io/TriviaGame/">
+                      <img
+                        class="img-fluid"
+                        src="images/biggie.jpg"
+                        alt="Christopher Wallace"
+                      />
+                      <h6 class="container-fluid plabel">Rap Trivia</h6>
+                    </a>
+                    <a
+                      href="https://github.com/bingbingma/TriviaGame"
+                      class="container-fluid psublabel"
+                    >
+                      Rap Music Trivia Game | GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- SECOND ROW -->
+
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img
+                      class="img-fluid"
+                      src="images/Rory.jpeg"
+                      alt="Rory the Lion"
+                    />
+                    <h6 class="container-fluid plabel" id="left">
+                      Columbia Info Widget<br />
+                      [COMING SOON]
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <img
+                      class="img-fluid"
+                      src="images/RPS3.jpg"
+                      alt="Rock Paper Scissors"
+                    />
+                    <h6 class="container-fluid plabel">
+                      Rock Paper Scissors<br />[COMING SOON]
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT------------------------------------------------------------------->
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button
+              class="btn btn-link collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Contact
+            </button>
+          </h5>
+        </div>
+        <div
+          id="collapseThree"
+          class="collapse"
+          aria-labelledby="headingThree"
+          data-parent="#accordionExample"
+        >
+          <div class="card-body">
+            <div class="panel-body">
+              <form>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Your Name</label>
+                  <input
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+              </form>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button> <br />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER WITH SOCIAL ------------------------------------------------------------------->
+
+    <footer>
+      <a href="https://github.com/bingbingma">GitHub</a>
+      <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+
+      Copyright &copy;
+      <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+      <a href="https://www.linkedin.com/in/david-xi-bing-ma-1559564/"
+        >LinkedIn</a
+      >
+    </footer>
+    <!-- SCRIPT LINKS ------------------------------------------------------------------->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <!--------------------------------------------------------------------->
+</html>
+
+<!-- NON CARD COLLAPSE EXAMPLE-------------------------------------------------------------------->
+
+<!-- <p>
+      <button
+        class="btn btn-primary"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapseExample"
+        aria-expanded="false"
+        aria-controls="collapseExample"
+      >
+        Button with data-target
+      </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+        terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+        labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div> -->
+
+<!-- NON CARD COLLAPSE EXAMPLE-------------------------------------------------------------------->
